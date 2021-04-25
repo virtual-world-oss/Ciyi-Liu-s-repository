@@ -1,0 +1,5 @@
+1、特征的维数指的是像素数还是其他？生成区域建议中n*n的空间窗口指的是像素吗？
+2、论文中说：An anchor is centered at the sliding window in question, 
+and is associated with a scale and aspect ratio
+但是总共由k个锚框，是只有一个锚框位于中央吗？
+3、MultiBox全连接输出层、卷积输出层的维数计算方法
