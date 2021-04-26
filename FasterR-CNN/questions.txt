@@ -3,3 +3,5 @@
 and is associated with a scale and aspect ratio
 但是总共由k个锚框，是只有一个锚框位于中央吗？
 3、MultiBox全连接输出层、卷积输出层的维数计算方法
+4、训练RPN和Fast R-CNN检测网络时，共享卷积层只在前两步进行了微调，而后面的多次迭代都不在
+动共享卷积层，那么是否能保证共享卷积层的正确性或者说有效性？
